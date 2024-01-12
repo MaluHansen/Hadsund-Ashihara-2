@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+ 
+:root{
+ 
+    --blå: #23377F; 
+    --rød: #E31E24;
+    --cream: #EEEDE8; 
+    --tekstFarve: #303030;
+ 
+    
+}
+*{
+    font-family: 'Lato';
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+/* mobile header */
+ nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--blå);
+    padding: 16px;
+}
+ 
+nav ul{
+    display: none;
+}
+ 
+.login{
+   display: none; 
+}
+ 
+.logo{
+    height: 56px;
+    width: 240px;
+}
+ 
+svg{
+    fill: white;
+    
+} 
+ 
+main{
+    margin: 24px 32px;
+}
+
+/* mobile footer */
+footer{
+    background-color: var(--blå);
+    color: white;
+    display: flex;
+    padding: 24px 56px;
+    flex-direction: column;
+    margin: auto;
+     
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer svg{
+    height: 30px;
+    width: 30px;
+    margin: 10px 20px 10px 0px;
+}
+     
+
+     
+.kontaktInfo h3{
+    margin-bottom: 20px;
+}
+     
+.kontaktInfo p:last-of-type{
+    margin-bottom: 20px;
+}
+     
+footer p{
+    line-height: 27px;
+}
+     
+.footerNav h3{
+    margin-bottom: 10px;
+}
+     
+.footerNav p:last-of-type{
+    margin-bottom: 10px; 
+}
+     
+.medierLogo{
+    margin-bottom: 10px; 
+}
