@@ -160,11 +160,52 @@ h3{
 .tiderSkema{
     background-color: white;
     margin: 12px 0px;
+    padding: 0px 8px;
     box-shadow: 3px 3px 5px #aaaaaa;
 }
 .tiderSkema p{
     margin: 8px 0px;
 }
 
+
+.nyhed1{
+   
+    background-image: url(../img/forside/DAN_graduering_i_DAO.JPG);
+
+    min-height: 164px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    margin: 24px 0px;
+
+}
+
+.nyhed2{
+    background-image: url(../img/forside/Opvisning_i_Hadsund.JPG);
+    min-height: 164px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 24px 0px;
+}
+
+.nyhed3{
+    background-image: url(../img/forside/Rekordstor_graduering.JPG);
+    min-height: 164px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 24px 0px;
+}
+
+.outro{
+    background-image: url(../img/forside/Gruppe_billede_2019.jpg);
+
+    background-size: cover;
+    margin: 0px -32px;
+    min-width: 100%;
+    min-height: 200px;
+}
 
 /* -----------------------------------------*/
