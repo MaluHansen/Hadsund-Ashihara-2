@@ -276,9 +276,6 @@ h3{
     }
     
    
-    .maalseatninger{
-        
-    }
     .maalseatningerContainer{
         display: flex;
         justify-content: space-between;
@@ -374,6 +371,9 @@ h3{
     }
     .maalseatninger{
         justify-content: space-between;
+    }
+    .outroTekst{
+        max-width: 50%;
     }
 }
 
