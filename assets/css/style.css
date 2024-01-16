@@ -260,8 +260,33 @@ h3{
 }
 
 /*---------------- media queries-------------------*/
-@media screen and (min-width: 400px){
-    
+@media screen and (min-width: 600px){
+    .hero{
+        min-height: 300px;
+    }
+   
+    .introTekst{
+        margin: 24px 42px;
+    }
+   
+    .maalseatninger div{
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .column1{
+        
+        flex-direction: column;
+        
+    }
+    .column2{
+
+        flex-direction: column;
+        
+    }
+
+    .nyhed1, .nyhed2, .nyhed3{
+        min-height: 200px;
+    }
     
 }
 
