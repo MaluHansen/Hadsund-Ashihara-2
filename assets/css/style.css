@@ -2,18 +2,33 @@
  
 :root{
  
+
+    --hvidBælte: hsl(0, 0%, 100%);
+    --rødBælte: hsl(0, 100%, 36%);
+    --blåBælte: hsl(226, 100%, 38%);
+    --gulBælte:  hsl(51, 100%, 50%);
+    --grønBælte: hsl(115, 83%, 33%);
+    --brunBælte: hsl(35, 85%, 33%);
+    --sortBælte:  hsl(0, 0%, 0%);
+    
+
     --blå: #23377F; 
     --rød: #E31E24;
     --cream: #EEEDE8; 
     --tekstFarve: #303030;
     --lilleTekst: #707070;
     background-color: var(--cream);
+
 }
 *{
     font-family: 'Lato';
     margin: 0;
     box-sizing: border-box;
-    
+
+}
+
+body{
+    background-color: var(--cream);
 }
  
 /* mobile header */
@@ -34,19 +49,27 @@ nav ul{
 }
  
 .logo{
-    height: 36px;
+  height: 36px;
     width: 150px;
 }
  
+
+.burger{
+    height: 40px;
+    width: 40px; 
+}
+
 svg{
     fill: white;
     
 } 
+
  
 main{
     margin: 16px 32px;
     
 }
+
 
 /* mobile footer */
 footer{
@@ -68,6 +91,9 @@ footer svg{
     margin: 10px 20px 10px 0px;
 }
      
+footer img{
+ width: 250px;   
+}
 
      
 .kontaktInfo h3{
@@ -93,6 +119,429 @@ footer p{
 .medierLogo{
     margin-bottom: 10px; 
 }
+
+
+/* Nathalia */
+/* Om Ashihara */
+.om_ashihara{
+    margin: 24px 32px;
+}
+
+.japansk_have{
+    width: 100%;
+    border-radius: 2px;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.om_ashihara h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+.om_ashihara p{
+    margin-bottom: 20px;
+}
+
+.om_ashihara p, .bæltegrader p{
+    line-height: 27px;
+}
+
+.button{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    background-color: var(--rød);
+    padding: 10px;
+    border-radius: 30px;
+    padding-inline: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+/* Ashihara citat */
+.kancho_ashihara{
+    width: 200px;
+    border-radius: 2px;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+
+.ashihara_citat{
+    background-image: linear-gradient(white, hsl(227, 57%, 32%));
+    padding: 30px;
+}
+
+.ashihara_citat p{
+    color: var(--blå);
+    font-size: 30px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+}
+
+.ashihara_citat p:nth-child(2){
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* Bæltegrader */
+.bæltegrader{
+    margin: 24px 32px;
+}
+
+.bæltegrader h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+.bæltegrader h3{
+    margin-top: 10px;
+}
+
+
+.bæltegrader p{
+    margin-bottom: 50px;
+}
+
+/* hvid bælte */
+.hvid_bælte{
+    background-color: white;
+    padding: 35px;
+}
+
+/* rød bælte */
+.rød_bælte{
+    background-color: var(--rødBælte);
+    padding-inline: 65px;
+    margin-right: 30px;
+}
+.rød_bælte_med_blå_stribe{
+    background-color: var(--rødBælte);
+    padding-inline: 60px;
+}
+
+.blå_stribe{
+    background-color: var(--blåBælte);
+    width: 10px;
+    height: 65px;
+    margin-left: 400%;
+} 
+
+/* blå bælte */
+.blå_bælte{
+    background-color: var(--blåBælte);
+    padding-inline: 65px;
+    margin-right: 30px;
+}
+
+.blå_bælte_med_gul_stribe{
+    background-color: var(--blåBælte);
+    padding-inline: 60px;
+}
+
+.gul_stribe{
+    background-color: var(--gulBælte);
+    width: 10px;
+    height: 65px;
+    margin-left: 400%;
+}
+
+/* gul bælte */
+.gul_bælte{
+    background-color: var(--gulBælte);
+    padding-inline: 65px;
+    margin-right: 30px;
+}
+.gul_bælte_med_grøn_stribe{
+    background-color: var(--gulBælte);
+    padding-inline: 60px;
+}
+
+.grøn_stribe{
+    background-color: var(--grønBælte);
+    width: 10px;
+    height: 65px;
+    margin-left: 400%;
+}
+
+/* grøn bælte */
+.grøn_bælte{
+    background-color: var(--grønBælte);
+    padding-inline: 65px;
+    margin-right: 30px;
+}
+.grøn_bælte_med_brun_stribe{
+    background-color: var(--grønBælte);
+    padding-inline: 60px;
+}
+
+.brun_stribe{
+    background-color: var(--brunBælte);
+    width: 10px;
+    height: 65px;
+    margin-left: 400%;
+}
+
+/* brun bælte */
+.brun_bælte{
+    background-color: var(--brunBælte);
+    padding-inline: 65px;
+    margin-right: 30px;
+}
+.brun_bælte_med_sort_stribe{
+    background-color: var(--brunBælte);
+    padding-inline: 60px;
+}
+
+.sort_stribe{
+    background-color: var(--sortBælte);
+    width: 10px;
+    height: 65px;
+    margin-left: 400%;
+}
+
+/* sort bælte */
+ .sort_bælte_med_gul_stribe{
+    background-color: var(--sortBælte);
+    padding-inline: 35px;
+    margin-right: 20px;
+}
+.sort_bælte_med_gul_stribe div{
+    background-color: var(--gulBælte);
+    width: 7px;
+    height: 65px;
+}
+
+.sort_bælte_med_to_gule_striber{
+    background-color: var(--sortBælte);
+    padding-inline: 35px;
+    margin-right: 20px;
+}
+
+.sort_bælte_med_to_gule_striber div:nth-child(1){
+    background-color: var(--gulBælte);
+    width: 10px;
+    height: 65px;
+}
+
+
+.sort_bælte_med_to_gule_striber div:nth-child(2){
+    background-color: var(--gulBælte);
+    width: 10px;
+    height: 65px;
+    margin-left: 30%;
+}
+
+.sort_bælte_med_tre_gule_striber{
+    background-color: var(--sortBælte);
+    padding-inline: 30px;
+}
+
+
+.sort_bælte_med_tre_gule_striber div:nth-child(1){
+    background-color: var(--gulBælte);
+    width: 10px;
+    height: 65px;
+}
+
+.sort_bælte_med_tre_gule_striber div:nth-child(2){
+    background-color: var(--gulBælte);
+    width: 10px;
+    height: 65px;
+    margin-left: 20%;
+}
+
+.sort_bælte_med_tre_gule_striber div:nth-child(3){
+    background-color: var(--gulBælte);
+    width: 10px;
+    height: 65px;
+    margin-left: 20%;
+}
+
+.bælter, .sort_bælte_med_to_gule_striber, .sort_bælte_med_tre_gule_striber{
+    display: flex;
+    direction: row;
+}
+
+/* Media queries */
+@media screen and (min-width: 400px){
+    .hvid_bælte{
+        margin-right: 40%;
+    }
+}
+
+@media screen and (min-width: 600px){
+    .button{
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+
+    .hvid_bælte{
+        margin-right: 60%;
+    }
+}
+
+
+@media screen and (min-width: 850px){
+    .bæltegrader, .om_ashihara{
+        margin: 44px 20%;
+    }
+    
+    .om_ashihara p{
+        font-size: 1rem;
+    }    
+    
+    .button{
+        text-decoration: none;
+        color: white;
+        font-weight: 600;
+        background-color: var(--rød);
+        padding: 10px;
+        border-radius: 30px;
+        padding-inline: 30px;
+        text-align: center;
+        margin-bottom: 100px;
+        margin-right: 50%;
+        margin-left: 0%;
+        
+    }
+    
+    .ashihara_citat{
+        display: flex;
+        flex-direction: row; 
+        align-items: center;
+        background-image: linear-gradient(to right, white, hsl(227, 57%, 32%));
+    }
+    
+    .citat{
+        margin-left: 20%;
+    }
+    
+    .bæltegrader h2{
+        margin-top: 80px;
+    }
+    
+    .hvid_bælte{
+        margin-right: 70%;
+    }
+    
+    .bæltegrader p:not(#bæltegrader_intro){
+        margin-right: 200px;
+    }
+    }
+
+    @media screen and (min-width: 1050px){
+        .button{
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+            background-color: var(--rød);
+            padding: 10px;
+            border-radius: 30px;
+            padding-inline: 30px;
+            text-align: center;
+            margin-bottom: 100px;
+            margin-right: 77%;
+            margin-left: 0%;
+        }
+
+        .bæltegrader p:not(#bæltegrader_intro){
+            margin-right: 300px;
+        }
+    }
+
+    @media screen and (min-width: 850px){
+    
+        /* Desktop footer */
+        footer{
+            display: flex;
+            padding: 24px 56px;
+            justify-content: space-evenly;
+            flex-direction: row;
+        }
+        footer a{
+            text-decoration: none;
+            color: white;
+        }
+        footer svg{
+            height: 50px;
+            width: 50px;
+            margin: 10px 20px 10px 0px;
+        }
+        
+        svg{
+            fill: white;
+            height: 30px;
+            width: 30px;
+        }
+        
+            .button{
+                margin-right: 70%;
+            }
+        }
+    
+    @media screen and (min-width: 1200px) {
+        .japansk_have{
+            width: 450px;
+            height: 300px;
+            margin: 10px;
+            float: right;
+        }
+    }
+        
+    
+
+    /* Desktop header */
+    @media screen and (min-width: 1230px){
+    .logo{
+        height: 56px;
+        width: 240px;
+        margin-right: 44px;
+    }
+    nav{
+        background-color: var(--blå);
+        display: flex;
+        padding: 16px 56px;
+    }
+    nav ul{
+        display: flex;
+        align-items: center;
+    }
+    nav a{
+        margin: 0px 32px;
+        text-decoration: none;
+        color: white;
+    
+        /*paddingen her gør linket større så man ikke skal ramme præcis på teksen*/
+        padding: 10px 10px;
+    }
+    /* ændre på teksen i nav når man hover undtagen på den side man allerede er på*/
+    nav a:hover:not(.current){
+        color: rgba(200, 200, 200, 90);
+    }
+    .current{
+        border-bottom: 2px solid white;
+    }
+    
+    
+    .burger{
+        display: none;
+    }
+    
+     
+    .login{
+    display: flex; 
+    }
+    
+}
+
 h1{
     font-size: 28px;
     text-align: center;
@@ -379,3 +828,4 @@ h3{
 
 /* ----------------------------------------------*/
 /* -----------------------------------------------*/
+
