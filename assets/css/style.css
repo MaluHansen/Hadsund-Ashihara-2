@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
  
 :root{
- 
-
+    
+    
     --hvidBælte: hsl(0, 0%, 100%);
     --rødBælte: hsl(0, 100%, 36%);
     --blåBælte: hsl(226, 100%, 38%);
@@ -11,8 +11,8 @@
     --brunBælte: hsl(35, 85%, 33%);
     --sortBælte:  hsl(0, 0%, 0%);
     
-
-
+    
+    
     --blå: #23377F; 
     --rød: #E31E24;
     --cream: #EEEDE8; 
@@ -20,7 +20,7 @@
     --lyseBlå: #DBDFEA;
     --lilleTekst: #707070;
     background-color: var(--cream);
-
+    
 }
 *{
     font-family: 'Lato';
@@ -32,7 +32,17 @@
 body{
     background-color: var(--cream);
 }
- 
+
+h1{
+    font-size: 28px;
+    text-align: center;
+    padding-top: 28px;
+}
+
+p{
+    line-height: 27px;
+}
+
 /* mobile header */
  nav {
     display: flex;
@@ -110,186 +120,21 @@ footer img{
 footer p{
     line-height: 27px;
 }
-     
+
 .footerNav h3{
     margin-bottom: 10px;
 }
-     
+
 .footerNav p:last-of-type{
     margin-bottom: 10px; 
 }
-     
+
 .medierLogo{
     margin-bottom: 10px; 
 }
 
-
-
-/*-------------Jacob-----------------------*/
-/* træningstider  */
-body {
-    background-color: var(--cream);
-    
-  }
-  .træningstider {
-    background-color: white;
-    width: 100%;
-    margin-right: 20px;
-  }
-  .træningstider h1 {
-    background-color: var(--cream);
-  }
-  .voksen_træningstider,
-  .born_træningstider {
-    display: flex;
-  }
-  .born_træningstider ul{
-    margin-left: 30px;
-  }
-  .træningstider ul {
-    list-style-type: none;
-  }
-  .træningstider ul li {
-    margin: 30px;
-  }
-  .træningstider h2 {
-    background-color: lightblue;
-    color: var(--blå);
-    border-radius: 20px;
-    margin: auto;
-    padding: 20px;
-    margin-left: 10px;
-  }
-
-  /* kalender  */
-.kalender ul {
-    list-style-type: none;
-    background-color: white;
-  }
-  .måned {
-    text-align: center;
-    border-bottom: var(--blå) solid 1px;
-  }
-  #forige {
-    float: left;
-  }
-  #næste {
-    float: right;
-  }
-  .ugedage {
-    border-bottom: var(--blå) solid 1px;
-  }
-  .ugedage li,
-  .taldato li {
-    display: inline-block;
-    width: 13%;
-  }
-  .taldato li {
-      margin-top: 20px;
-      margin-bottom: 20px;
-  }
-  .ugedage li{
-      margin-top: 20px;
-      margin-bottom: 20px;
-  }
-
-  /*-Karatetræning-*/
-.karatetræning h1 {
-    margin-top: 40px;
-    margin-bottom: 20px;
-  }
-  .karatetræning ul {
-    list-style-type: none;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-  .karatetræning ul li {
-    padding: 15px;
-  }
-  
-  .top_elementer img, .ned_elementer img {
-    max-width: 15%;
-    margin-right: 20px;
-  }
-  button {
-    color: white;
-    background-color: var(--rød);
-    border-radius: 20px;
-    padding: 15px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: 0;
-  }
-  .udstyr h1,
-  .udstyr p {
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-
-  @media screen and (min-width: 820px) {
-    .træning_kalender {
-      display: flex;
-    }
-    .born_træningstider{
-      margin-top: 20px;
-    }
-    .træningstider ul li {
-      align-items: center;
-    }
-    .træningstider{
-      max-width: 500px;
-    }
-    .ugedage li {
-      margin-top: 10px;
-      margin-bottom: 10px;
-    }
-    .taldato li {
-      margin-top: 20px;
-      margin-bottom: 20px;
-    }
-    .top_elementer,
-    .ned_elementer {
-      display: flex;
-      justify-content: space-between;
-    }
-  }
-  
-  @media screen and (min-width: 1300px) {
-    .kalender {
-      width: 66%;
-    }
-    .træningstider {
-      width: 33%;
-    }
-    .kalender ul {
-      background-color: white;
-    }
-    .ugedage li {
-      display: inline-block;
-      width: 13%;
-    }
-    .taldato li {
-      display: inline-block;
-      width: 13%;
-     }
-    .taldato {
-      background-color: white;
-    }
-    .top_elementer,
-    .ned_elementer {
-      display: flex;
-      justify-content: space-between;
-    }
-  }
-
-
-
-/*-------------Jacob-----------------------*/
-
-
-/* media queries */
 @media screen and (min-width: 850px){
-    
+
     /* Desktop footer */
     footer{
         display: flex;
@@ -311,19 +156,6 @@ body {
         fill: white;
         height: 30px;
         width: 30px;
-    }
-    
-        .button{
-            margin-right: 70%;
-        }
-    }
-
-@media screen and (min-width: 1200px) {
-    .japansk_have{
-        width: 450px;
-        height: 300px;
-        margin: 10px;
-        float: right;
     }
 }
 
@@ -347,7 +179,7 @@ nav a{
     margin: 0px 32px;
     text-decoration: none;
     color: white;
-
+    
     /*paddingen her gør linket større så man ikke skal ramme præcis på teksen*/
     padding: 10px 10px;
 }
@@ -364,34 +196,193 @@ nav a:hover:not(.current){
     display: none;
 }
 
- 
+
 .login{
 display: flex; 
 }
 
 }
 
-/* Indmeldelse og priser */
-.indmeldelse_information, .udstyr, .tilmelding{
-    margin: 24px 32px;
+
+/*-------------Jacob-----------------------*/
+/* træningstider  */
+body {
+    background-color: var(--cream);
+    
+  }
+  .træningstider {
+      background-color: white;
+      width: 100%;
+      margin-right: 20px;
+    }
+    .træningstider h1 {
+        background-color: var(--cream);
+    }
+    .voksen_træningstider,
+    .born_træningstider {
+        display: flex;
+    }
+    .born_træningstider ul{
+        margin-left: 30px;
+    }
+    .træningstider ul {
+        list-style-type: none;
+    }
+  .træningstider ul li {
+    margin: 30px;
+  }
+  .træningstider h2 {
+      background-color: lightblue;
+      color: var(--blå);
+      border-radius: 20px;
+      margin: auto;
+      padding: 20px;
+      margin-left: 10px;
+    }
+    
+    /* kalender  */
+    .kalender ul {
+        list-style-type: none;
+        background-color: white;
+    }
+    .måned {
+        text-align: center;
+        border-bottom: var(--blå) solid 1px;
+    }
+    #forige {
+        float: left;
+  }
+  #næste {
+    float: right;
+  }
+  .ugedage {
+    border-bottom: var(--blå) solid 1px;
 }
- 
-
-/* --------------Master------------- */
-
-
-.card{
-    overflow: hidden;
-    background-image: url(/assets/img/instruktører/Sensei_Brian.jpeg);
-    background-size: cover;
-    transition: 200ms ease;
-    opacity: 0.9;
-    max-width: 32rem;
-    overflow: hidden;
-    margin: 16px 32px 16px 32px;
+.ugedage li,
+.taldato li {
+    display: inline-block;
+    width: 13%;
 }
-.card2{
-    overflow: hidden;
+.taldato li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ugedage li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*-Karatetræning-*/
+.karatetræning h1 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.karatetræning ul {
+    list-style-type: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.karatetræning ul li {
+    padding: 15px;
+}
+
+.top_elementer img, .ned_elementer img {
+    max-width: 15%;
+    margin-right: 20px;
+}
+button {
+    color: white;
+    background-color: var(--rød);
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+}
+.udstyr h1,
+.udstyr p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 820px) {
+    .træning_kalender {
+        display: flex;
+    }
+    .born_træningstider{
+        margin-top: 20px;
+    }
+    .træningstider ul li {
+        align-items: center;
+    }
+    .træningstider{
+        max-width: 500px;
+    }
+    .ugedage li {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .taldato li {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .top_elementer,
+    .ned_elementer {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  
+  @media screen and (min-width: 1300px) {
+      .kalender {
+          width: 66%;
+        }
+        .træningstider {
+            width: 33%;
+        }
+        .kalender ul {
+            background-color: white;
+        }
+        .ugedage li {
+            display: inline-block;
+            width: 13%;
+        }
+        .taldato li {
+            display: inline-block;
+            width: 13%;
+        }
+        .taldato {
+            background-color: white;
+    }
+    .top_elementer,
+    .ned_elementer {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  
+
+  /*-------------Jacob-----------------------*/
+  
+  
+  
+  
+  /* --------------Master------------- */
+  
+  
+  .card{
+      overflow: hidden;
+      background-image: url(/assets/img/instruktører/Sensei_Brian.jpeg);
+      background-size: cover;
+      transition: 200ms ease;
+      opacity: 0.9;
+      max-width: 32rem;
+      overflow: hidden;
+      margin: 16px 32px 16px 32px;
+    }
+    .card2{
+        overflow: hidden;
     background-image: url(/assets/img/instruktører/Sensei_Allan.jpeg);
     background-size: cover;
     transition: 200ms ease;
@@ -497,32 +488,32 @@ display: flex;
         hsl(0 0% 0% / 0),
         hsla(0, 0%, 0%, 0.3) 20%,
         hsl(0 0% 0% / 1));
-    transform: translateY(70%);
-    min-height: 20rem;
-    max-height: 12rem;
-}
-
-.card4:hover .cardTitle::after{
-    transform: scaleX(1)
-}
-.card4:hover .cardContent4{
-    transform: translateY(0);
-}
-/* ---5---- */
-
-.card5:hover .cardTitle::after{
-    transform: scaleX(1)
-}
-.card5:hover .cardContent{
-    transform: translateY(0);
-}
-/* ---6--- */
-
-.card6:hover .cardTitle::after{
-    transform: scaleX(1)
-}
-.card6:hover .cardContent{
-    transform: translateY(0);
+        transform: translateY(70%);
+        min-height: 20rem;
+        max-height: 12rem;
+    }
+    
+    .card4:hover .cardTitle::after{
+        transform: scaleX(1)
+    }
+    .card4:hover .cardContent4{
+        transform: translateY(0);
+    }
+    /* ---5---- */
+    
+    .card5:hover .cardTitle::after{
+        transform: scaleX(1)
+    }
+    .card5:hover .cardContent{
+        transform: translateY(0);
+    }
+    /* ---6--- */
+    
+    .card6:hover .cardTitle::after{
+        transform: scaleX(1)
+    }
+    .card6:hover .cardContent{
+        transform: translateY(0);
 }
 
 .bestyrelse{
@@ -594,7 +585,7 @@ display: flex;
         margin-top: 0;
         
     }
-        
+    
 }
 
 @media screen and (max-width:699px){
@@ -605,9 +596,7 @@ display: flex;
 
 
 
-/* --------------------------------- */
-
-/* Nathalia */
+/* ------------Nathalia------------------ */
 /* Om Ashihara */
 .om_ashihara{
     margin: 24px 32px;
@@ -661,6 +650,8 @@ display: flex;
 .ashihara_citat{
     background-image: linear-gradient(white, hsl(227, 57%, 32%));
     padding: 30px;
+    margin-right: -16px;
+    margin-left: -16px;
 }
 
 .ashihara_citat p{
@@ -686,199 +677,6 @@ display: flex;
     margin-bottom: 20px;
     font-weight: 900;
 }
-
- 
-.indmeldelse_information p:not(.indmeldelse_information p:nth-child(3)){
-    margin-bottom: 20px;
-}
-
-p{
-    line-height: 27px;
-}
-
-.indmeldelse_information p:nth-child(4){
-    font-style: italic;
-    font-weight: 300;
-}
-
-/* priser */
-table {
-    margin-right: 20px;
-    margin-left: 20px;
-    border-collapse: collapse;
-  }
-
-  td {
-    height: 70px;
-    vertical-align: top;
-  }
-  
-  th,td{
-    padding: 15px;
-    text-align: left;
-  }
-
-  tr:nth-child(odd) {
-    background-color: var(--lyseBlå);
-}
-
-tr:nth-child(2) {
-    background-color: white;
-}
-
-  .priser p:nth-child(2){
-    margin-left: 30px;
-    margin-right: 30px;
-    font-style: italic;
-    font-weight: 300;
-    margin-top: 10px;
-    font-size: 0.9rem;
-  }
-
-  .priser p:nth-child(3){
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-top: 10px;
-    margin-bottom: 25px;
-  }
-/* Udstyr og betaling*/
-.udstyr h2, .betaling h2, .tilmelding h2{
-    font-weight: 500;
-    font-size: 1.5rem;
-}
-
-.udstyr p:nth-child(2){
-    margin-bottom: 10px;
-    font-style: italic;
-}
-
-.udstyr p:nth-child(4){
-    margin-bottom: 10px;
-}
-
-.betaling p:nth-child(2){
-    margin-bottom: 10px;
-}
-
-.betaling p:nth-child(4){
-    margin-bottom: 10px;
-}
-
- /* Tilmelding */
-.tilmelding, .betaling h2{
-    margin-bottom: 10px;
-}
-
- input {
-    width: 100%;
-    border: none;
-    padding: 15px;
-    background-color: white;
-    margin-bottom: 10px;
-}
-
-  form input:nth-child(7){
-    padding-bottom: 50px;
-  }
-
-  ::placeholder{
-    font-size: 1rem;
-  }
-
-.tilmelding_button{
-    text-decoration: none;
-    color: white;
-    font-weight: 600;
-    background-color: var(--rød);
-    padding: 10px;
-    border-radius: 30px;
-    padding-inline: 30px;
-    display: flex;
-    justify-content: center;
-
-    margin: 10px 70px 50px 70px;
-}
-
-/* media queries */
-/* Priser og indmeldelse */
-@media screen and (min-width: 450px){
-    .tilmelding_button{
-        margin-right: 190px;
-        margin-left: 0px;
-    }
-
-    input {
-        width: 60%;
-    }
-}
-
-@media screen and (min-width: 600px){
-    .tilmelding_button{
-        margin-right: 350px;
-        margin-left: 0px;
-    }
-
-    input {
-        width: 50%;
-    }
-}
-
-@media screen and (min-width: 700px){
-    .tilmelding_button{
-        margin-right: 450px;
-        margin-left: 0px;
-    }
-
-    input {
-        width: 50%;
-    }
-}
-
-@media screen and (min-width: 800px){
-    .indmeldelse_information, .priser {
-        margin: 44px 20%;
-    }
-
-    table {
-        margin-right: 0px;
-        margin-left: 0px;
-        width: 100%;
-        
-      }
-    
-      .indmeldelse_og_information_om_udstyr_og_betaling{
-        display: grid;
-        grid-template-columns: 1fr 400px 400px 1fr;
-        grid-template-rows: 1fr 1fr;
-        gap: 10px;
-      }
-
-      .udstyr{
-        grid-column: 2/3;
-      }
-
-      .betaling{
-        grid-column: 2/3;
-        grid-row: 2;
-      }
-
-      input {
-        padding: 20px;
-        width: 100%;
-        margin-bottom: 30px;
-    }
-    
-      form input:nth-child(7){
-        padding-bottom: 55px;
-      }
-
-      .tilmelding_button{
-        margin-right: 70px;
-        margin-left: 70px;
-    }
-
-}
-
 
 .bæltegrader h3{
     margin-top: 10px;
@@ -987,7 +785,7 @@ tr:nth-child(2) {
 }
 
 /* sort bælte */
- .sort_bælte_med_gul_stribe{
+.sort_bælte_med_gul_stribe{
     background-color: var(--sortBælte);
     padding-inline: 35px;
     margin-right: 20px;
@@ -1049,7 +847,7 @@ tr:nth-child(2) {
     direction: row;
 }
 
-/* Media queries */
+/* Media queries til Om Ashihara*/
 @media screen and (min-width: 400px){
     .hvid_bælte{
         margin-right: 40%;
@@ -1061,7 +859,7 @@ tr:nth-child(2) {
         margin-right: 20%;
         margin-left: 20%;
     }
-
+    
     .hvid_bælte{
         margin-right: 60%;
     }
@@ -1070,7 +868,7 @@ tr:nth-child(2) {
 
 @media screen and (min-width: 850px){
     .bæltegrader, .om_ashihara{
-        margin: 44px 20%;
+        margin: 40px 15%;
     }
     
     .om_ashihara p{
@@ -1078,18 +876,9 @@ tr:nth-child(2) {
     }    
     
     .button{
-        text-decoration: none;
-        color: white;
-        font-weight: 600;
-        background-color: var(--rød);
-        padding: 10px;
-        border-radius: 30px;
-        padding-inline: 30px;
-        text-align: center;
         margin-bottom: 100px;
         margin-right: 50%;
         margin-left: 0%;
-        
     }
     
     .ashihara_citat{
@@ -1115,56 +904,6 @@ tr:nth-child(2) {
         margin-right: 200px;
     }
     }
-
-    @media screen and (min-width: 1050px){
-        .button{
-            text-decoration: none;
-            color: white;
-            font-weight: 600;
-            background-color: var(--rød);
-            padding: 10px;
-            border-radius: 30px;
-            padding-inline: 30px;
-            text-align: center;
-            margin-bottom: 100px;
-            margin-right: 77%;
-            margin-left: 0%;
-        }
-
-        .bæltegrader p:not(#bæltegrader_intro){
-            margin-right: 300px;
-        }
-    }
-
-    @media screen and (min-width: 850px){
-    
-        /* Desktop footer */
-        footer{
-            display: flex;
-            padding: 24px 56px;
-            justify-content: space-evenly;
-            flex-direction: row;
-        }
-        footer a{
-            text-decoration: none;
-            color: white;
-        }
-        footer svg{
-            height: 50px;
-            width: 50px;
-            margin: 10px 20px 10px 0px;
-        }
-        
-        svg{
-            fill: white;
-            height: 30px;
-            width: 30px;
-        }
-        
-            .button{
-                margin-right: 70%;
-            }
-        }
     
     @media screen and (min-width: 1200px) {
         .japansk_have{
@@ -1174,64 +913,218 @@ tr:nth-child(2) {
             float: right;
         }
     }
-        
     
-
-    /* Desktop header */
-    @media screen and (min-width: 1230px){
-    .logo{
-        height: 56px;
-        width: 240px;
-        margin-right: 44px;
-    }
-    nav{
-        background-color: var(--blå);
-        display: flex;
-        padding: 16px 56px;
-    }
-    nav ul{
-        display: flex;
-        align-items: center;
-    }
-    nav a{
-        margin: 0px 32px;
-        text-decoration: none;
-        color: white;
-    
-        /*paddingen her gør linket større så man ikke skal ramme præcis på teksen*/
-        padding: 10px 10px;
-    }
-    /* ændre på teksen i nav når man hover undtagen på den side man allerede er på*/
-    nav a:hover:not(.current){
-        color: rgba(200, 200, 200, 90);
-    }
-    .current{
-        border-bottom: 2px solid white;
+    @media screen and (min-width: 1050px){    
+        .bæltegrader p:not(#bæltegrader_intro){
+            margin-right: 300px;
+        }
     }
     
-    
-    .burger{
-        display: none;
+    /*----Indmeldelse og priser-----*/
+    .indmeldelse_information, .udstyr, .tilmelding{
+        margin: 24px 32px;
     }
     
-     
-    .login{
-    display: flex; 
-    }
-    
+.indmeldelse_information p:not(.indmeldelse_information p:nth-child(3)){
+    margin-bottom: 20px;
 }
 
-h1{
-    font-size: 28px;
-    text-align: center;
-    padding-top: 28px;
+
+.indmeldelse_information p:nth-child(4){
+    font-style: italic;
+    font-weight: 300;
+}
+
+/* priser */
+table {
+    margin-right: 20px;
+    margin-left: 20px;
+    border-collapse: collapse;
+  }
+
+  td {
+    height: 70px;
+    vertical-align: top;
+  }
+  
+  th,td{
+    padding: 15px;
+    text-align: left;
+  }
+
+  tr:nth-child(odd) {
+    background-color: var(--lyseBlå);
+}
+
+tr:nth-child(2) {
+    background-color: white;
+}
+
+  .priser p:nth-child(2){
+    margin-left: 30px;
+    margin-right: 30px;
+    font-style: italic;
+    font-weight: 300;
+    margin-top: 10px;
+    font-size: 0.9rem;
+  }
+
+  .priser p:nth-child(3){
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+  }
+/* Udstyr og betaling*/
+.udstyr h2, .betaling h2, .tilmelding h2{
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.udstyr p:nth-child(2){
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.udstyr p:nth-child(4){
+    margin-bottom: 10px;
+}
+
+.betaling p:nth-child(2){
+    margin-bottom: 10px;
+}
+
+.betaling p:nth-child(4){
+    margin-bottom: 10px;
+}
+
+ /* Tilmelding */
+.tilmelding, .betaling h2{
+    margin-bottom: 10px;
+}
+
+ input {
+    width: 100%;
+    border: none;
+    padding: 15px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+  form input:nth-child(7){
+    padding-bottom: 50px;
+  }
+
+  ::placeholder{
+    font-size: 1rem;
+  }
+
+.tilmelding_button{
+    text-decoration: none;
     color: white;
+    font-weight: 600;
+    background-color: var(--rød);
+    padding: 10px;
+    border-radius: 30px;
+    padding-inline: 30px;
+    display: flex;
+    justify-content: center;
+
+    margin: 10px 70px 50px 70px;
 }
+
+/* Media queries til Priser og indmeldelse*/
+@media screen and (min-width: 450px){
+    .tilmelding_button{
+        margin-right: 190px;
+        margin-left: 0px;
+    }
+
+    input {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 600px){
+    .tilmelding_button{
+        margin-right: 350px;
+        margin-left: 0px;
+    }
+
+    input {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 700px){
+    .tilmelding_button{
+        margin-right: 450px;
+        margin-left: 0px;
+    }
+
+    input {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 800px){
+    .indmeldelse_information, .priser {
+        margin: 44px 20%;
+    }
+
+    table {
+        margin-right: 0px;
+        margin-left: 0px;
+        width: 100%;
+        
+      }
+    
+      .indmeldelse_og_information_om_udstyr_og_betaling{
+        display: grid;
+        grid-template-columns: 1fr 400px 400px 1fr;
+        gap: 10px;
+      }
+
+      .udstyr{
+        grid-column: 2/3;
+      }
+
+      .betaling{
+        grid-column: 2/3;
+        grid-row: 2;
+      }
+
+      input {
+        padding: 20px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+      form input:nth-child(7){
+        padding-bottom: 55px;
+      }
+
+      .tilmelding_button{
+        margin-right: 70px;
+        margin-left: 70px;
+    }
+
+}
+
+
+
+
+
+
 h3{
     padding-top: 16px;
 }
 
 /* ------------------ Malou ----------------*/
+.hero h1{
+    color: white;
+}
+
 .hero{
     background-image: url(../img/forside/Gruppe_billede_2018.jpg);
     background-size: cover;
