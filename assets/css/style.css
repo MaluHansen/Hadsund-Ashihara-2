@@ -66,10 +66,6 @@ svg{
     
 } 
 
-body{
-    background-color: var(--cream);
-}
-
  
 main{
     margin: 16px 32px;
@@ -126,6 +122,169 @@ footer p{
 .medierLogo{
     margin-bottom: 10px; 
 }
+
+
+
+/*-------------Jacob-----------------------*/
+/* træningstider  */
+body {
+    background-color: var(--cream);
+    
+  }
+  .træningstider {
+    background-color: white;
+    width: 100%;
+    margin-right: 20px;
+  }
+  .træningstider h1 {
+    background-color: var(--cream);
+  }
+  .voksen_træningstider,
+  .born_træningstider {
+    display: flex;
+  }
+  .born_træningstider ul{
+    margin-left: 30px;
+  }
+  .træningstider ul {
+    list-style-type: none;
+  }
+  .træningstider ul li {
+    margin: 30px;
+  }
+  .træningstider h2 {
+    background-color: lightblue;
+    color: var(--blå);
+    border-radius: 20px;
+    margin: auto;
+    padding: 20px;
+    margin-left: 10px;
+  }
+
+  /* kalender  */
+.kalender ul {
+    list-style-type: none;
+    background-color: white;
+  }
+  .måned {
+    text-align: center;
+    border-bottom: var(--blå) solid 1px;
+  }
+  #forige {
+    float: left;
+  }
+  #næste {
+    float: right;
+  }
+  .ugedage {
+    border-bottom: var(--blå) solid 1px;
+  }
+  .ugedage li,
+  .taldato li {
+    display: inline-block;
+    width: 13%;
+  }
+  .taldato li {
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+  .ugedage li{
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+
+  /*-Karatetræning-*/
+.karatetræning h1 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .karatetræning ul {
+    list-style-type: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .karatetræning ul li {
+    padding: 15px;
+  }
+  
+  .top_elementer img, .ned_elementer img {
+    max-width: 15%;
+    margin-right: 20px;
+  }
+  button {
+    color: white;
+    background-color: var(--rød);
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+  }
+  .udstyr h1,
+  .udstyr p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  @media screen and (min-width: 820px) {
+    .træning_kalender {
+      display: flex;
+    }
+    .born_træningstider{
+      margin-top: 20px;
+    }
+    .træningstider ul li {
+      align-items: center;
+    }
+    .træningstider{
+      max-width: 500px;
+    }
+    .ugedage li {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .taldato li {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .top_elementer,
+    .ned_elementer {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  
+  @media screen and (min-width: 1300px) {
+    .kalender {
+      width: 66%;
+    }
+    .træningstider {
+      width: 33%;
+    }
+    .kalender ul {
+      background-color: white;
+    }
+    .ugedage li {
+      display: inline-block;
+      width: 13%;
+    }
+    .taldato li {
+      display: inline-block;
+      width: 13%;
+     }
+    .taldato {
+      background-color: white;
+    }
+    .top_elementer,
+    .ned_elementer {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+
+
+/*-------------Jacob-----------------------*/
 
 
 /* media queries */
@@ -217,9 +376,6 @@ display: flex;
     margin: 24px 32px;
 }
  
-.indmeldelse_information h1{
-
-
 
 /* --------------Master------------- */
 
@@ -609,7 +765,7 @@ tr:nth-child(2) {
 }
 
  /* Tilmelding */
-.tilmelding h2{
+.tilmelding, .betaling h2{
     margin-bottom: 10px;
 }
 
@@ -639,10 +795,8 @@ tr:nth-child(2) {
     padding-inline: 30px;
     display: flex;
     justify-content: center;
-    margin-top: 10px;
-    margin-bottom: 50px;
-    margin-right: 70px;
-    margin-left: 70px;
+
+    margin: 10px 70px 50px 70px;
 }
 
 /* media queries */
@@ -695,7 +849,7 @@ tr:nth-child(2) {
       .indmeldelse_og_information_om_udstyr_og_betaling{
         display: grid;
         grid-template-columns: 1fr 400px 400px 1fr;
-        grid-template-rows: 250px 300px;
+        grid-template-rows: 1fr 1fr;
         gap: 10px;
       }
 
@@ -711,6 +865,7 @@ tr:nth-child(2) {
       input {
         padding: 20px;
         width: 100%;
+        margin-bottom: 30px;
     }
     
       form input:nth-child(7){
