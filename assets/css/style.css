@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+ 
+:root{
+ 
+    --blå: #23377F; 
+    --rød: #E31E24;
+    --cream: #EEEDE8; 
+    --tekstFarve: #303030;
+    --lilleTekst: #707070;
+    background-color: var(--cream);
+}
+*{
+    font-family: 'Lato';
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+ 
+/* mobile header */
+ nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--blå);
+    padding: 16px;
+}
+ 
+nav ul{
+    display: none;
+}
+ 
+.login{
+   display: none; 
+}
+ 
+.logo{
+    height: 36px;
+    width: 150px;
+}
+ 
+svg{
+    fill: white;
+    
+} 
+ 
+main{
+    margin: 16px 32px;
+    
+}
+
+/* mobile footer */
+footer{
+    background-color: var(--blå);
+    color: white;
+    display: flex;
+    padding: 24px 56px;
+    flex-direction: column;
+    margin: auto;
+     
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer svg{
+    height: 30px;
+    width: 30px;
+    margin: 10px 20px 10px 0px;
+}
+     
+
+     
+.kontaktInfo h3{
+    margin-bottom: 20px;
+}
+     
+.kontaktInfo p:last-of-type{
+    margin-bottom: 20px;
+}
+     
+footer p{
+    line-height: 27px;
+}
+     
+.footerNav h3{
+    margin-bottom: 10px;
+}
+     
+.footerNav p:last-of-type{
+    margin-bottom: 10px; 
+}
+     
+.medierLogo{
+    margin-bottom: 10px; 
+}
+h1{
+    font-size: 28px;
+    text-align: center;
+    padding-top: 28px;
+    color: white;
+}
+h3{
+    padding-top: 16px;
+}
+
+/* ------------------ Malou ----------------*/
+.hero{
+    background-image: url(../img/forside/Gruppe_billede_2018.jpg);
+    background-size: cover;
+    min-width: 100%;
+    min-height: 200px;
+}
+
+.introTekst{
+    font-size: 16px;
+    color: var(--tekstFarve);
+}
+
+.ikonMaalseatninger{
+    width: 40px;
+    height: 30px;
+    margin-right: 8px;
+}
+.maalseatninger{
+    margin: 8px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.column1 div, .column2 div{
+    display: flex;
+    align-items: center;
+    padding: 8px 16px 8px 0px;
+}
+
+
+.maalseatninger span{
+    color: var(--lilleTekst);
+    font-size: 12px;
+    
+}
+.maalseatningerBtn{
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    background-color: var(--rød);
+    border: none;
+    border-radius: 50px;
+    color: white;
+    min-width: 40%;
+    padding: 8px 12px;
+}
+
+#voksen{
+    border-bottom: 2px solid var(--blå);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 16px;
+}
+#boern{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 16px;
+}
+#boern span{
+    font-size: 12px;
+    display: block;
+}
+
+.tiderSkema{
+    background-color: white;
+    margin: 12px 0px;
+    padding: 0px 8px;
+    box-shadow: 3px 3px 5px #aaaaaa;
+}
+.tiderSkema p{
+    margin: 8px 0px;
+}
+
+
+.nyhed1{
+   
+    background-image: url(../img/forside/DAN_graduering_i_DAO.JPG);
+
+    min-height: 164px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 24px 0px;
+    position: relative;
+    box-shadow: inset 0 -60px 10px -10px rgba(0, 0, 0, 0.6);
+
+}
+.nyhed2{
+    background-image: url(../img/forside/Opvisning_i_Hadsund.JPG);
+    min-height: 164px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 24px 0px;
+    position: relative;
+    box-shadow: inset 0 -60px 10px -10px rgba(0, 0, 0, 0.6);
+}
+.nyhed3{
+    background-image: url(../img/forside/Rekordstor_graduering.JPG);
+    min-height: 164px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 24px 0px;
+    position: relative;
+    box-shadow: inset 0 -60px 10px -10px rgba(0, 0, 0, 0.6);
+}
+#nyhederTekst{
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    color: white;
+}
+#nyhedTag{
+    background-color: var(--blå);
+    color: white;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    padding: 4px 8px;
+    border-radius: 50px;
+    font-size: 12px;
+}
+
+
+
+
+
+.outro{
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.outroImg{
+    background-image: url(../img/forside/Gruppe_billede_2019.jpg);
+
+    background-size: cover;
+    margin: 0px -32px;
+    min-width: 100%;
+    min-height: 200px;
+}
+.outroTekst{
+    background-color: white;
+    margin: -32px 32px 16px 32px;
+    box-shadow: 3px 3px 5px #aaaaaa;
+    padding: 32px 32px 32px 32px;
+    border-radius: 2px;
+    font-size: 12px;
+    text-align: center;
+    color: var(--lilleTekst);
+}
+#outroBtn{
+   margin-top: -32px;
+   box-shadow: 3px 3px 5px #aaaaaa;
+}
+
+/*---------------- media queries-------------------*/
+@media screen and (min-width: 600px){
+    .hero{
+        min-height: 300px;
+    }
+   
+    .introTekst{
+        margin: 24px 42px;
+    }
+    
+   
+    .maalseatningerContainer{
+        display: flex;
+        justify-content: space-between;
+    }
+    .column1{
+        
+        flex-direction: column;
+        
+    }
+    .column2{
+
+        flex-direction: column;
+        
+    }
+
+    .nyhed1, .nyhed2, .nyhed3{
+        min-height: 200px;
+    }
+    
+}
+
+@media screen and (min-width: 850px){
+    main{
+        margin: 32px 64px;
+    }
+   .hero{
+    display: none;
+   }
+   .introTekst {
+    display: none;
+   }
+   
+   .heroDesktop{
+    display: flex;
+    flex-direction: row;
+    margin: 32px 64px;
+   }
+   .heroImgDesktop{
+    max-width: 50%;
+   }
+   h1{
+    color: var(--tekstFarve);
+    padding: 0px 0px 16px 0px;
+   }
+   .introDesktop{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   }
+   .introDesktop p{
+    line-height: 1.5;
+   }
+
+   .nyheder{
+    display: grid;
+    column-gap: 16px;
+    row-gap: 16px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin: 32px 0px 32px 0px;
+   }
+   .nyhed1{
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+   }
+   .nyhed1, .nyhed2, .nyhed3{
+    margin: unset;
+   }
+
+   .outroImg{
+    margin: 0px -64px;
+    min-height: 300px;
+   }
+}
+
+@media screen and (max-width: 850px){
+.heroDesktop{
+    display: none;
+}
+.heroImgDesktop{
+    display: none;
+}
+
+}
+
+@media screen and (min-width: 1200px){
+    .container2{
+        display: flex;
+        justify-content: space-between;
+    }
+    .treaningstider{
+        min-width: 50%;
+    }
+    .maalseatninger{
+        justify-content: space-between;
+    }
+    .outroTekst{
+        max-width: 50%;
+    }
+}
+
+/* ----------------------------------------------*/
+/* -----------------------------------------------*/
