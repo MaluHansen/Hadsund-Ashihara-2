@@ -97,9 +97,16 @@ body {
 .taldato li {
   display: inline-block;
   width: 13%;
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
+.taldato li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ugedage li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 /*-Karatetræning-*/
 .karatetræning h1 {
   margin-top: 40px;
@@ -112,6 +119,8 @@ body {
 }
 .karatetræning ul li {
   padding: 15px;
+}
+.karatetræning ul p{
 }
 .top_elementer img, .ned_elementer img {
   max-width: 15%;
