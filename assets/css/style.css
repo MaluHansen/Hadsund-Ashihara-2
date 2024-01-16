@@ -13,6 +13,7 @@
     font-family: 'Lato';
     margin: 0;
     box-sizing: border-box;
+    transition: all .3s ease-in-out;
 }
  
 /* mobile header */
@@ -44,6 +45,9 @@ svg{
  
 main{
     margin: 24px 32px;
+}
+body{
+    background-color: var(--cream);
 }
 
 /* mobile footer */
@@ -94,50 +98,229 @@ footer p{
 
 
 /* --------------Master------------- */
+
+
 .card{
-    width: 22rem;
-    height: 26rem;
     overflow: hidden;
-    cursor: pointer;
-    position: relative;  
-    color: white;
-    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.1);
-}
-.cardImg{
-    position: absolute;
-    object-fit: cover;
-    top: 0;
-    left: 0;
+    background-image: url(/assets/img/instruktører/Sensei_Brian.jpeg);
+    background-size: cover;
+    transition: 200ms ease;
     opacity: 0.9;
-    transition: opacity .2s ease-out;
+    max-width: 32rem;
+    overflow: hidden;
+    margin: 16px 32px 16px 32px;
 }
-.cardName{
-    position: absolute;
-    inset: auto auto 30px 30px;
-    margin: 0;
-    transition: inset .3s .3s ease-out;
-    /* text-shadow: 1px 1px 2px rgba(34, 34, 34, 0.186); */
+.card2{
+    overflow: hidden;
+    background-image: url(/assets/img/instruktører/Sensei_Allan.jpeg);
+    background-size: cover;
+    transition: 200ms ease;
+    opacity: 0.9;
+    max-width: 32rem;
+    overflow: hidden;
+    margin: 16px 32px 16px 32px;
 }
-.cardInfo{
-    position: absolute;
-    font-size: large;
-    opacity: 0;
-    max-width: 80%;
-    transition: opacity .3s ease-out;
-    inset: auto auto 80px 30px;
-    /* text-shadow: 1px 1px 2px rgba(34, 34, 34, 0.186); */
+.card3{
+    overflow: hidden;
+    background-image: url(/assets/img/instruktører/Sensei_Jan.jpeg);
+    background-size: cover;
+    transition: 200ms ease;
+    opacity: 0.9;
+    max-width: 32rem;
+    overflow: hidden;
+    margin: 16px 32px 16px 32px;
 }
-&:hover .cardName {
-    inset: auto auto 220px 30px;
-    transition: inset .3s ease-out;
+.card4{
+    overflow: hidden;
+    background-image: url(/assets/img/instruktører/Sempai_Richo.jpg);
+    background-size: cover;
+    transition: 200ms ease;
+    opacity: 0.9;
+    max-width: 32rem;
+    overflow: hidden;
+    margin: 16px 32px 16px 32px;
 }
-&:hover .cardInfo{
-    opacity: 1;
-    transition: opacity .5s .1s ease-in;
+.card5{
+    overflow: hidden;
+    background-image: url(/assets/img/instruktører/Henrik.jpeg);
+    background-size: cover;
+    transition: 200ms ease;
+    opacity: 0.9;
+    max-width: 32rem;
+    overflow: hidden;
+    margin: 16px 32px 16px 32px;
 }
-&:hover .cardImg{
-    transition: opacity .3s ease-in;
-    opacity: 1;
+.card6{
+    overflow: hidden;
+    background-image: url(/assets/img/instruktører/Sempai_Jesper.jpeg);
+    background-size: cover;
+    transition: 200ms ease;
+    opacity: 0.9;
+    max-width: 32rem;
+    overflow: hidden;
+    margin: 16px 32px 16px 32px;
+}
+
+/* ---indhold på kortene---- */
+
+.cardContent{
+    padding: 30px;
+    background: linear-gradient(
+        hsl(0 0% 0% / 0),
+        hsla(0, 0%, 0%, 0.3) 20%,
+        hsl(0 0% 0% / 1));
+    transform: translateY(70%);
+    min-height: 20rem;
+    max-height: 12rem;
+    
+}
+
+.cardTitle{
+    position: relative;
+    width: fit-content;
+    color: white;
+}
+.cardText{
+    color: white;
+    line-height: 2;
+}
+
+/* --hover starter-- */
+
+.card:hover .cardTitle::after{
+    transform: scaleX(1)
+}
+.card:hover .cardContent{
+    transform: translateY(0);
+}
+
+/* ----2---- */
+
+.card2:hover .cardTitle::after{
+    transform: scaleX(1)
+}
+.card2:hover .cardContent{
+    transform: translateY(0);
+}
+/* ---3---- */
+
+.card3:hover .cardTitle::after{
+    transform: scaleX(1)
+}
+.card3:hover .cardContent{
+    transform: translateY(0);
+}
+/* ---4---- */
+.cardContent4{
+    padding: 30px;
+    background: linear-gradient(
+        hsl(0 0% 0% / 0),
+        hsla(0, 0%, 0%, 0.3) 20%,
+        hsl(0 0% 0% / 1));
+    transform: translateY(70%);
+    min-height: 20rem;
+    max-height: 12rem;
+}
+
+.card4:hover .cardTitle::after{
+    transform: scaleX(1)
+}
+.card4:hover .cardContent4{
+    transform: translateY(0);
+}
+/* ---5---- */
+
+.card5:hover .cardTitle::after{
+    transform: scaleX(1)
+}
+.card5:hover .cardContent{
+    transform: translateY(0);
+}
+/* ---6--- */
+
+.card6:hover .cardTitle::after{
+    transform: scaleX(1)
+}
+.card6:hover .cardContent{
+    transform: translateY(0);
+}
+
+.bestyrelse{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.bestyrelsetitle{
+    text-align: center;
+    margin: 40px 0 10px 0;
+}
+.bestyrelseInfo{
+    line-height: 42px;
+}
+.tlfnr{
+    text-decoration: none;
+}
+.contaktformand{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-right: 24px;
+    background-color: white;
+    padding: 50px 30px;
+    line-height: 24px;
+    text-align: center;
+    box-shadow: 2px 4px 4px rgba(40, 40, 40, 0.188);
+    max-width: 40rem;
+}
+.contaktTitle{
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+.formand{
+    display: block;
+    margin: 20px auto 0 auto;
+    width: 50%;
+    width: 12rem;
+}
+
+/* -------media queries------- */
+@media screen and (min-width:700px){
+    .contianer2{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .card, .card2, .card3, .card4, .card5, .card6{
+        margin: 16px 24px 16px 24px;
+    }
+    .bestyrelse{
+        padding-left: 24px;
+        margin-top: 0;
+    }
+    .bestyrelsetitle{
+        text-align: left;
+        margin: 30px 0 30px 0;
+    }
+    .contianer3{
+        display: grid;
+        grid-template-columns: 1fr 1.5fr;   
+    }
+    .contaktTekst, .contaktTitle{
+        text-align: left;
+    }
+    .contianer4{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .formand{
+        margin-top: 0;
+        
+    }
+        
+}
+
+@media screen and (max-width:699px){
+    .formand{
+        margin-bottom: 20px;
+    }
 }
 
 
