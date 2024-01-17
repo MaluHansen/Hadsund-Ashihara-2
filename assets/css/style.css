@@ -1120,6 +1120,9 @@ tr:nth-child(2) {
     font-size: 16px;
     color: var(--tekstFarve);
 }
+.introDesktop{
+    padding: 16px 32px;
+}
 
 .ikonMaalseatninger{
     width: 40px;
@@ -1313,9 +1316,7 @@ tr:nth-child(2) {
    .hero{
     display: none;
    }
-   .introTekst {
-    display: none;
-   }
+   
    
    .heroDesktop{
     display: flex;
@@ -1325,6 +1326,7 @@ tr:nth-child(2) {
    .heroImgDesktop{
     max-width: 50%;
    }
+   
    h1{
     color: var(--tekstFarve);
     padding: 0px 0px 16px 0px;
@@ -1334,9 +1336,7 @@ tr:nth-child(2) {
     flex-direction: column;
     align-items: flex-start;
    }
-   .introDesktop p{
-    line-height: 1.5;
-   }
+   
 
    .nyheder{
     display: grid;
@@ -1361,7 +1361,7 @@ tr:nth-child(2) {
 }
 
 @media screen and (max-width: 850px){
-.heroDesktop{
+.heroDesktop h1{
     display: none;
 }
 .heroImgDesktop{
@@ -1387,13 +1387,25 @@ tr:nth-child(2) {
     }
     .introDesktop{
         padding-right: 16px;
+        color: var(--tekstFarve);
     }
 
     .maalseatninger_treaningstider{
         display: flex;
     
     }
+    .introTekst{
+        margin: 0;
+        
+    }
 }
+
+@media screen and (max-width: 1200px){
+    .introTekst{
+        display: none;
+    }
+}
+
 
 /* ----------------------------------------------*/
 /* -----------------------------------------------*/
