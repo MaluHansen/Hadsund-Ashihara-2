@@ -1490,6 +1490,7 @@ h3{
     .nyhed1, .nyhed2, .nyhed3{
         min-height: 200px;
     }
+
     
 }
 
@@ -1564,12 +1565,21 @@ h3{
     }
     .treaningstider{
         min-width: 50%;
+        margin-left: 16px;
     }
     .maalseatninger{
         justify-content: space-between;
     }
     .outroTekst{
         max-width: 50%;
+    }
+    .introDesktop{
+        padding-right: 16px;
+    }
+
+    .maalseatninger_treaningstider{
+        display: flex;
+    
     }
 }
 
