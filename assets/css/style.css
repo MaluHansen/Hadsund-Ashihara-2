@@ -650,8 +650,7 @@ button {
 .ashihara_citat{
     background-image: linear-gradient(white, hsl(227, 57%, 32%));
     padding: 30px;
-    margin-right: -16px;
-    margin-left: -16px;
+    margin: 0px -32px
 }
 
 .ashihara_citat p{
@@ -975,6 +974,7 @@ tr:nth-child(2) {
     margin-top: 10px;
     margin-bottom: 25px;
   }
+  
 /* Udstyr og betaling*/
 .udstyr h2, .betaling h2, .tilmelding h2{
     font-weight: 500;
@@ -1069,7 +1069,7 @@ tr:nth-child(2) {
 
 @media screen and (min-width: 800px){
     .indmeldelse_information, .priser {
-        margin: 44px 20%;
+        margin: 40px 15%;
     }
 
     table {
