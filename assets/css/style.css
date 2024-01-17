@@ -1395,6 +1395,7 @@ tr:nth-child(2) {
 
     .maalseatninger_treaningstider{
         display: flex;
+        margin-bottom: 32px;
     
     }
     .introTekst{
