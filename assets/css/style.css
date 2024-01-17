@@ -300,8 +300,7 @@ body {
 
 
 /* media queries */
-=======
->>>>>>> d094b74c98a68636a6d2e29dfa5d8aa3c80b7e21
+
 @media screen and (min-width: 850px){
 
     /* Desktop footer */
@@ -527,6 +526,10 @@ button {
     .ned_elementer {
       display: flex;
       justify-content: space-between;
+    }
+    .top_elementer li{
+        display: flex;
+        align-items: center;
     }
   }
 
