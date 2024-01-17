@@ -1555,7 +1555,7 @@ h3{
 }
 
 @media screen and (min-width: 1200px){
-    .container2{
+    #container2{
         display: flex;
         justify-content: space-between;
     }
