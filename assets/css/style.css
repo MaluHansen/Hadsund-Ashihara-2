@@ -1308,6 +1308,9 @@ h3{
     font-size: 16px;
     color: var(--tekstFarve);
 }
+.introDesktop{
+    padding: 16px 32px;
+}
 
 .ikonMaalseatninger{
     width: 40px;
@@ -1501,9 +1504,7 @@ h3{
    .hero{
     display: none;
    }
-   .introTekst {
-    display: none;
-   }
+   
    
    .heroDesktop{
     display: flex;
@@ -1513,6 +1514,7 @@ h3{
    .heroImgDesktop{
     max-width: 50%;
    }
+   
    h1{
     color: var(--tekstFarve);
     padding: 0px 0px 16px 0px;
@@ -1522,9 +1524,7 @@ h3{
     flex-direction: column;
     align-items: flex-start;
    }
-   .introDesktop p{
-    line-height: 1.5;
-   }
+   
 
    .nyheder{
     display: grid;
@@ -1549,7 +1549,7 @@ h3{
 }
 
 @media screen and (max-width: 850px){
-.heroDesktop{
+.heroDesktop h1{
     display: none;
 }
 .heroImgDesktop{
@@ -1575,13 +1575,25 @@ h3{
     }
     .introDesktop{
         padding-right: 16px;
+        color: var(--tekstFarve);
     }
 
     .maalseatninger_treaningstider{
         display: flex;
     
     }
+    .introTekst{
+        margin: 0;
+        
+    }
 }
+
+@media screen and (max-width: 1200px){
+    .introTekst{
+        display: none;
+    }
+}
+
 
 /* ----------------------------------------------*/
 /* -----------------------------------------------*/
