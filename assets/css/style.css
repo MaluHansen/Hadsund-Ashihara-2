@@ -4,20 +4,20 @@
     
     
     --hvidBaelte: hsl(0, 0%, 100%);
-    --rødBaelte: hsl(0, 100%, 36%);
-    --blåBaelte: hsl(226, 100%, 38%);
+    --roedBaelte: hsl(0, 100%, 36%);
+    --blaaBaelte: hsl(226, 100%, 38%);
     --gulBaelte:  hsl(51, 100%, 50%);
-    --grønBaelte: hsl(115, 83%, 33%);
+    --groenBaelte: hsl(115, 83%, 33%);
     --brunBaelte: hsl(35, 85%, 33%);
     --sortBaelte:  hsl(0, 0%, 0%);
     
     
     
-    --blå: #23377F; 
-    --rød: #E31E24;
+    --blaa: #23377F; 
+    --roed: #E31E24;
     --cream: #EEEDE8; 
     --tekstFarve: #303030;
-    --lyseBlå: #DBDFEA;
+    --lyseBlaa: #DBDFEA;
     --lilleTekst: #707070;
     background-color: var(--cream);
     
@@ -60,7 +60,7 @@ p{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--blå);
+    background-color: var(--blaa);
     padding: 16px;
 }
 
@@ -97,7 +97,7 @@ main{
 
 /* mobile footer */
 footer{
-    background-color: var(--blå);
+    background-color: var(--blaa);
     color: white;
     display: flex;
     padding: 24px 56px;
@@ -175,7 +175,7 @@ footer img{
     margin-right: 44px;
 }
 nav{
-    background-color: var(--blå);
+    background-color: var(--blaa);
     display: flex;
     padding: 16px 56px;
 }
@@ -245,7 +245,7 @@ display: flex;
   }
   .traeningstider h3 {
     background-color: lightblue;
-    color: var(--blå);
+    color: var(--blaa);
     border-radius: 20px;
     margin: auto;
     padding: 20px;
@@ -257,9 +257,9 @@ display: flex;
     list-style-type: none;
     background-color: white;
   }
-  .måned {
+  .maaned {
     text-align: center;
-    border-bottom: var(--blå) solid 1px;
+    border-bottom: var(--blaa) solid 1px;
   }
   #forige {
     float: left;
@@ -268,7 +268,7 @@ display: flex;
     float: right;
   }
   .ugedage {
-    border-bottom: var(--blå) solid 1px;
+    border-bottom: var(--blaa) solid 1px;
   }
   .ugedage li,
   .taldato li {
@@ -305,7 +305,7 @@ display: flex;
 
   .button_traening {
     color: white;
-    background-color: var(--rød);
+    background-color: var(--roed);
     border-radius: 20px;
     padding: 10px;
     margin-top: 20px;
@@ -643,7 +643,7 @@ display: flex;
     text-decoration: none;
     color: white;
     font-weight: 600;
-    background-color: var(--rød);
+    background-color: var(--roed);
     padding: 10px;
     border-radius: 30px;
     padding-inline: 30px;
@@ -669,7 +669,7 @@ display: flex;
 }
 
 .ashihara_citat p{
-    color: var(--blå);
+    color: var(--blaa);
     font-size: 30px;
     font-weight: 300;
     font-style: italic;
@@ -708,32 +708,32 @@ display: flex;
 }
 
 /* rød bælte */
-.rød_baelte{
-    background-color: var(--rødBaelte);
+.roed_baelte{
+    background-color: var(--roedBaelte);
     padding-inline: 65px;
     margin-right: 30px;
 }
-.rød_baelte_med_blå_stribe{
-    background-color: var(--rødBaelte);
+.roed_baelte_med_blaa_stribe{
+    background-color: var(--roedBaelte);
     padding-inline: 60px;
 }
 
-.blå_stribe{
-    background-color: var(--blåBaelte);
+.blaa_stribe{
+    background-color: var(--blaaBaelte);
     width: 10px;
     height: 65px;
     margin-left: 400%;
 } 
 
 /* blå bælte */
-.blå_baelte{
-    background-color: var(--blåBaelte);
+.blaa_baelte{
+    background-color: var(--blaaBaelte);
     padding-inline: 65px;
     margin-right: 30px;
 }
 
-.blå_baelte_med_gul_stribe{
-    background-color: var(--blåBaelte);
+.blaa_baelte_med_gul_stribe{
+    background-color: var(--blaaBaelte);
     padding-inline: 60px;
 }
 
@@ -750,26 +750,26 @@ display: flex;
     padding-inline: 65px;
     margin-right: 30px;
 }
-.gul_baelte_med_grøn_stribe{
+.gul_baelte_med_groen_stribe{
     background-color: var(--gulBaelte);
     padding-inline: 60px;
 }
 
-.grøn_stribe{
-    background-color: var(--grønBaelte);
+.groen_stribe{
+    background-color: var(--groenBaelte);
     width: 10px;
     height: 65px;
     margin-left: 400%;
 }
 
 /* grøn bælte */
-.grøn_baelte{
-    background-color: var(--grønBaelte);
+.groen_baelte{
+    background-color: var(--groenBaelte);
     padding-inline: 65px;
     margin-right: 30px;
 }
-.grøn_baelte_med_brun_stribe{
-    background-color: var(--grønBaelte);
+.groen_baelte_med_brun_stribe{
+    background-color: var(--groenBaelte);
     padding-inline: 60px;
 }
 
@@ -967,7 +967,7 @@ table {
   }
 
   tr:nth-child(odd) {
-    background-color: var(--lyseBlå);
+    background-color: var(--lyseBlaa);
 }
 
 tr:nth-child(2) {
@@ -1033,7 +1033,7 @@ tr:nth-child(2) {
     text-decoration: none;
     color: white;
     font-weight: 600;
-    background-color: var(--rød);
+    background-color: var(--roed);
     padding: 10px;
     border-radius: 30px;
     padding-inline: 30px;
@@ -1168,7 +1168,7 @@ tr:nth-child(2) {
     justify-content: space-between;
 }
 .btn{
-    background-color: var(--rød);
+    background-color: var(--roed);
     border: none;
     border-radius: 50px;
     color: white;
@@ -1180,7 +1180,7 @@ tr:nth-child(2) {
 }
 
 #voksen{
-    border-bottom: 2px solid var(--blå);
+    border-bottom: 2px solid var(--blaa);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -1248,7 +1248,7 @@ tr:nth-child(2) {
     color: white;
 }
 #nyhedTag{
-    background-color: var(--blå);
+    background-color: var(--blaa);
     color: white;
     position: absolute;
     top: 8px;
