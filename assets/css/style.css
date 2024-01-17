@@ -1396,7 +1396,7 @@ tr:nth-child(2) {
         max-width: 50%;
     }
     .introDesktop{
-        padding-right: 16px;
+        padding: 8px 48px;
         color: var(--tekstFarve);
     }
 
