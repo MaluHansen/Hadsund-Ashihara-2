@@ -211,11 +211,11 @@ display: flex;
 
 }
 
-/*-------------Jacob-----------------------*/
 /* træningstider  */
 .traening_kalender h2{
     padding-bottom: 20px;
     text-align: center;
+    margin-top: 28px;
 }
 
 .treaningstider_treaning{
@@ -317,6 +317,10 @@ display: flex;
     .traeningstider ul li {
       align-items: center;
     }
+
+    .traening_kalender h2{
+        margin-top: 0px;
+    }
     /* .traeningstider{
       max-width: 500px;
     } */
@@ -372,7 +376,6 @@ display: flex;
 
   }  
   
-  /* --------------Master------------- */
   .card{
       overflow: hidden;
       background-image: url(/assets/img/instruktører/Sensei_Brian.jpeg);
@@ -597,8 +600,6 @@ display: flex;
 }
 
 
-
-/* ------------Nathalia------------------ */
 /* Om Ashihara */
 .om_ashihara{
     margin: 24px 32px;
@@ -1108,7 +1109,6 @@ tr:nth-child(2) {
 
 }
 
-/* ------------------ Malou ----------------*/
 .hero h1{
     color: white;
 }
