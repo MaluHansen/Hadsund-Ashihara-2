@@ -231,7 +231,7 @@ display: flex;
     padding: 24px 8px;
 } 
 
-  /* kalender  */
+/* kalender  */
 .kalender{
     margin-bottom: 28px;
 }
@@ -239,53 +239,62 @@ display: flex;
 .kalender ul {
     list-style-type: none;
     background-color: white;
-  }
-  .maaned {
+}
+.maaned {
     text-align: center;
     border-bottom: var(--blaa) solid 1px;
-  }
-  .maaned ul{
+}
+.maaned ul{
     padding: 8px 30px;
-  }
-  #forige {
+}
+#forige {
     float: left;
-  }
-  #naeste {
+}
+#naeste {
     float: right;
-  }
-  .ugedage {
+}
+.ugedage {
     border-bottom: var(--blaa) solid 1px;
-  }
-  .ugedage li,
-  .taldato li {
+}
+.ugedage li,
+.taldato li {
     display: inline-block;
     width: 13%;
-  }
-  .taldato li {
-      margin-top: 20px;
-      margin-bottom: 20px;
-  }
-  .ugedage li{
-      margin-top: 20px;
-      margin-bottom: 20px;
-  }
-
-
-  /*-Karatetræning-*/
-  .karatetraening p:nth-child(3){
+}
+.taldato li {
+    margin-top: 20px;
     margin-bottom: 20px;
-  }
+}
+.ugedage li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
-  .karatetraening ul {
+.element{
+display: flex;
+align-items: center;
+margin: 12px 8px 8px 0px;
+}
+.traeningselementer{
+    margin: 32px 0px;
+}
+
+
+/*-Karatetræning-*/
+.karatetraening p:nth-child(3){
+    margin-bottom: 20px;
+}
+
+.karatetraening ul {
     list-style-type: none;
     margin-top: 20px;
     margin-bottom: 20px;
-  }
-  .karatetraening ul li {
+}
+.karatetraening ul li {
     padding: 15px;
-  }
+}
 
-  .button_traening {
+.button_traening {
     color: white;
     background-color: var(--roed);
     border-radius: 20px;
@@ -294,19 +303,19 @@ display: flex;
     margin-bottom: 20px;
     border: 0;
     text-decoration: none;
-  }
+}
 
-  .udstyr_traening p {
+.udstyr_traening p {
     margin-top: 20px;
     margin-bottom: 20px;
-  }
+}
 
-  .udstyr_traening h2 {
+.udstyr_traening h2 {
     text-align: center;
     margin-top: 45px;
-  }
+}
 
-  @media screen and (min-width: 820px) {
+@media screen and (min-width: 820px) {
     .karatetraening, .udstyr_traening{
         margin: 40px 15%;
     }   
@@ -347,11 +356,7 @@ display: flex;
       margin-top: 20px;
       margin-bottom: 20px;
     }
-    .top_elementer,
-    .ned_elementer {
-      display: flex;
-      justify-content: space-between;
-    }
+  
   }
   
   @media screen and (min-width: 1300px) {
@@ -375,11 +380,7 @@ display: flex;
     .taldato {
       background-color: white;
     }
-    .top_elementer,
-    .ned_elementer {
-      display: flex;
-      justify-content: space-between;
-    }
+    
     .treaningstider_treaning_min800{
         flex-direction: row;
     }
@@ -1254,11 +1255,6 @@ tr:nth-child(2) {
     border-radius: 50px;
     font-size: 12px;
 }
-
-
-
-
-
 .outro{
     
 
@@ -1325,7 +1321,16 @@ tr:nth-child(2) {
 
     .maalseatningerBtn a:nth-child(2){
         margin-right: 40px;
-       }
+    }
+
+    .traeningselementer{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 32px 0px;
+    }
+    .element{
+        padding: 8px 8px 16px 8px;
+    }
 }
 
 @media screen and (min-width: 850px){
@@ -1381,6 +1386,11 @@ tr:nth-child(2) {
     margin: 0px -64px;
     min-height: 300px;
    }
+   .traeningselementer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
 }
 
 @media screen and (max-width: 850px){
@@ -1421,6 +1431,12 @@ tr:nth-child(2) {
     .introTekst{
         margin: 0;
         
+    }
+
+    .traeningselementer{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
     }
 }
 
