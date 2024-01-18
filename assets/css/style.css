@@ -183,8 +183,13 @@ nav ul{
     display: flex;
     align-items: center;
 }
-nav a{
-    margin: 0px 32px;
+
+nav li{
+ text-align: center;
+}
+
+nav li a{
+    margin: 0px 10px;
     text-decoration: none;
     color: white;
     
@@ -227,6 +232,10 @@ display: flex;
 } 
 
   /* kalender  */
+.kalender{
+    margin-bottom: 28px;
+}
+
 .kalender ul {
     list-style-type: none;
     background-color: white;
@@ -305,7 +314,11 @@ display: flex;
   @media screen and (min-width: 820px) {
     .karatetraening, .udstyr_traening{
         margin: 40px 15%;
-    }    
+    }   
+    
+    .kalender{
+        margin-bottom: 0px;
+    }
 
     .traening_kalender {
       display: flex;
