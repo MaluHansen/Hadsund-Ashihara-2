@@ -391,7 +391,7 @@ margin: 12px 8px 8px 0px;
   
   .card{
       overflow: hidden;
-      background-image: url(/assets/img/instruktører/Sensei_Brian.jpeg);
+      background-image: url(./assets/img/instruktører/Sensei_Brian.jpeg);
       background-size: cover;
       transition: 200ms ease;
       opacity: 0.9;
@@ -401,7 +401,7 @@ margin: 12px 8px 8px 0px;
     }
     .card2{
         overflow: hidden;
-    background-image: url(/assets/img/instruktører/Sensei_Allan.jpeg);
+    background-image: url(./assets/img/instruktører/Sensei_Allan.jpeg);
     background-size: cover;
     transition: 200ms ease;
     opacity: 0.9;
@@ -411,7 +411,7 @@ margin: 12px 8px 8px 0px;
 }
 .card3{
     overflow: hidden;
-    background-image: url(/assets/img/instruktører/Sensei_Jan.jpeg);
+    background-image: url(./assets/img/instruktører/Sensei_Jan.jpeg);
     background-size: cover;
     transition: 200ms ease;
     opacity: 0.9;
@@ -421,7 +421,7 @@ margin: 12px 8px 8px 0px;
 }
 .card4{
     overflow: hidden;
-    background-image: url(/assets/img/instruktører/Sempai_Richo.jpg);
+    background-image: url(./assets/img/instruktører/Sempai_Richo.jpg);
     background-size: cover;
     transition: 200ms ease;
     opacity: 0.9;
@@ -431,7 +431,7 @@ margin: 12px 8px 8px 0px;
 }
 .card5{
     overflow: hidden;
-    background-image: url(/assets/img/instruktører/Henrik.jpeg);
+    background-image: url(./assets/img/instruktører/Henrik.jpeg);
     background-size: cover;
     transition: 200ms ease;
     opacity: 0.9;
@@ -441,7 +441,7 @@ margin: 12px 8px 8px 0px;
 }
 .card6{
     overflow: hidden;
-    background-image: url(/assets/img/instruktører/Sempai_Jesper.jpeg);
+    background-image: url(./assets/img/instruktører/Sempai_Jesper.jpeg);
     background-size: cover;
     transition: 200ms ease;
     opacity: 0.9;
