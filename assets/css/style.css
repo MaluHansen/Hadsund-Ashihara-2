@@ -284,11 +284,6 @@ display: flex;
   .karatetraening ul li {
     padding: 15px;
   }
-  
-  .top_elementer img, .ned_elementer img {
-    max-width: 15%;
-    margin-right: 20px;
-  }
 
   .button_traening {
     color: white;
@@ -334,9 +329,11 @@ display: flex;
     .traening_kalender h2{
         margin-top: 0px;
     }
-    /* .traeningstider{
-      max-width: 500px;
-    } */
+
+    .element{
+        display: flex;
+        flex-direction: row;
+    }
 
    .treaningstider_treaning_min800{
     display: flex;
