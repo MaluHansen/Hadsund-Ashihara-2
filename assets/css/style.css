@@ -55,8 +55,21 @@ p{
     font-size: clamp(0.5rem, 1rem, 1.5rem);
 }
 
+.btn{
+    background-color: var(--roed);
+    border: none;
+    border-radius: 50px;
+    color: white;
+    min-width: 40%;
+    padding: 7px 11px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
 /* mobile header */
- nav {
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -67,11 +80,11 @@ p{
 nav ul{
     display: none;
 }
- 
+
 .login{
-   display: none; 
+    display: none; 
 }
- 
+
 .logo{
   height: 36px;
     width: 150px;
@@ -292,17 +305,6 @@ margin: 12px 8px 8px 0px;
 }
 .karatetraening ul li {
     padding: 15px;
-}
-
-.button_traening {
-    color: white;
-    background-color: var(--roed);
-    border-radius: 20px;
-    padding: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: 0;
-    text-decoration: none;
 }
 
 .udstyr_traening p {
@@ -638,19 +640,6 @@ margin: 12px 8px 8px 0px;
     line-height: 27px;
 }
 
-.button{
-    text-decoration: none;
-    color: white;
-    font-weight: 600;
-    background-color: var(--roed);
-    padding: 10px;
-    border-radius: 30px;
-    padding-inline: 30px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
-}
-
 /* Ashihara citat */
 .kancho_ashihara{
     width: 200px;
@@ -868,10 +857,6 @@ margin: 12px 8px 8px 0px;
 }
 
 @media screen and (min-width: 600px){
-    .button{
-        margin-right: 20%;
-        margin-left: 20%;
-    }
     
     .hvid_baelte{
         margin-right: 60%;
@@ -887,12 +872,6 @@ margin: 12px 8px 8px 0px;
     .om_ashihara p{
         font-size: 1rem;
     }    
-    
-    .button{
-        margin-bottom: 100px;
-        margin-right: 50%;
-        margin-left: 0%;
-    }
     
     .ashihara_citat{
         display: flex;
@@ -1028,20 +1007,6 @@ tr:nth-child(2) {
     font-size: 1rem;
   }
 
-.tilmelding_button{
-    text-decoration: none;
-    color: white;
-    font-weight: 600;
-    background-color: var(--roed);
-    padding: 10px;
-    border-radius: 30px;
-    padding-inline: 30px;
-    display: flex;
-    justify-content: center;
-
-    margin: 10px 70px 50px 70px;
-}
-
 /* Media queries til Priser og indmeldelse*/
 @media screen and (min-width: 450px){
     .tilmelding_button{
@@ -1164,17 +1129,6 @@ tr:nth-child(2) {
 .maalseatningerBtn{
     display: flex;
     justify-content: space-between;
-}
-.btn{
-    background-color: var(--roed);
-    border: none;
-    border-radius: 50px;
-    color: white;
-    min-width: 40%;
-    padding: 7px 11px;
-    text-decoration: none;
-    text-align: center;
-    font-size: 0.8rem;
 }
 
 #voksen{
