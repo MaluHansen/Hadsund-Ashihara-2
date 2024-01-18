@@ -217,40 +217,14 @@ display: flex;
     padding-bottom: 20px;
     text-align: center;
 }
-  .traeningstider {
-    background-color: white;
-    width: 100%;
-    margin-right: 30px;
-}
-.traeningstider h2 {
-    background-color: var(--cream);
-}
 
-/* main h1 {
-    margin-top: 40px;
-    margin-bottom: 20px;
-  } */
-  .voksen_traeningstider,
-  .born_traeningstider {
+.treaningstider_treaning{
     display: flex;
-  }
-  .born_traeningstider ul{
-    margin-left: 30px;
-  }
-  .traeningstider ul {
-    list-style-type: none;
-  }
-  .traeningstider ul li {
-    margin: 30px;
-  }
-  .traeningstider h3 {
-    background-color: lightblue;
-    color: var(--blaa);
-    border-radius: 20px;
-    margin: auto;
-    padding: 20px;
-    margin-left: 10px;
-  }
+    flex-direction: column;
+    background-color: white;
+    margin-right: 30px;
+    padding: 24px 8px;
+} 
 
   /* kalender  */
 .kalender ul {
@@ -260,6 +234,9 @@ display: flex;
   .maaned {
     text-align: center;
     border-bottom: var(--blaa) solid 1px;
+  }
+  .maaned ul{
+    padding: 8px 30px;
   }
   #forige {
     float: left;
@@ -283,6 +260,7 @@ display: flex;
       margin-top: 20px;
       margin-bottom: 20px;
   }
+
 
   /*-Karatetræning-*/
   .karatetraening p:nth-child(3){
@@ -331,6 +309,7 @@ display: flex;
 
     .traening_kalender {
       display: flex;
+      
     }
     .born_traeningstider{
       margin-top: 20px;
